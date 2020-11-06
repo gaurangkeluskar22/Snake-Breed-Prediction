@@ -1,14 +1,14 @@
 # See the installation instructions at https://github.com/ageron/handson-ml
 
 ##### Core scientific packages
-jupyter==1.0.0
-matplotlib==3.1.2
-numpy==1.17.3
-pandas==0.25.3
+#jupyter==1.0.0
+#matplotlib==3.1.2
+#numpy==1.17.3
+#pandas==0.25.3
 scipy==1.3.1
 
 # Efficient jobs (caching, parallelism, persistence)
-joblib==0.14.0
+#joblib==0.14.0
 
 # Easy http requests
 requests==2.22.0
@@ -17,7 +17,7 @@ requests==2.22.0
 scikit-learn==0.22
 
 # Optional: the XGBoost library is only used in the ensemble learning chapter.
-xgboost==0.90
+#xgboost==0.90
 
 ##### Deep Learning packages
 
@@ -25,11 +25,11 @@ xgboost==0.90
 # you need a GPU card with CUDA Compute Capability 3.0 or higher support, and
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
-tensorflow==1.15.2
+tensorflow==2.0.0
 #tensorflow-gpu==1.15.0
 
-tensorboard==1.15.0
-tensorflow-estimator==1.15.1
+tensorboard==2.0.0
+tensorflow-estimator==2.0.0
 
 
 # Optional: OpenAI gym is only needed for the Reinforcement Learning chapter.
@@ -43,29 +43,29 @@ tensorflow-estimator==1.15.1
 # pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
 
 ##### Image manipulation
-imageio==2.6.1
-Pillow==6.2.1
+#imageio==2.6.1
+#Pillow==6.2.1
 scikit-image==0.16.2
 graphviz
-pydot==1.4.1
-opencv-python==4.1.2.30
-pyglet==1.3.2
+#pydot==1.4.1
+#opencv-python==4.1.2.30
+#pyglet==1.3.2
 
 #pyvirtualdisplay # needed in chapter 16, if on a headless server (without screen, e.g., Colab or VM)
 
 ##### Extra packages (optional)
 
 # Nice utility to diff Jupyter Notebooks.
-nbdime==1.1.0
+#nbdime==1.1.0
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).
-numexpr==2.7.0
+#numexpr==2.7.0
 
 
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
-tqdm==4.40.0
-ipywidgets==7.5.1
+#tqdm==4.40.0
+#ipywidgets==7.5.1
 
 # Other useful TensorFlow-related packages you may want
 #tensorflow-data-validation==0.15.0 # remove if on windows
